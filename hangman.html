@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Word Guess Game</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+<!-- HTML -->
+
+  <div class="container">
+      <!-- Header -->
+    <header id="header">  
+      <h1>WORD GUESS GAME</h1>
+      <h2 id="outcome-1">** THE CATEGORY IS "COLORS" **</h2>
+      <h2 id="outcome-2"></h2>
+    </header>
+      
+    <!-- Create the 2 cols for display using BStrap -->
+    <div class="row">
+      <div class="col-lg-4">
+        <!-- Image(s) displayed in left col -->
+        <img class="img img-thumbnail" src="assets/images/hangman2.jpg" width="300px">
+        <img class="img img-thumbnail" src="assets/images/paint.jpg" alt="Color splotches" width="300px" >
+        <!-- <p><br>Display a Pop-up image on win here.</p> -->
+      </div>
+
+      <div class="col-lg-8">
+        <div class="rightBox"> 
+          <p id="pressAnyKey"></p>              
+          <p id="instructions">PICK A lower case letter TO PLAY</p>
+          <p id="random-word"></p>
+          <br>
+          <span id="hidden-word"></span>
+          <br><br>
+          <p>Number of guesses remaining</p>
+          <p id="guesses-remaining"></p>
+          <p>Letters already guessed</p>
+          <p id="guesses"></p>
+          <p id>Wins</p>
+          <p id="wins"></p>   
+        </div>
+      </div>
+    </div>  <!-- End row div -->
+  </div>  <!-- End container div -->
+
+     <!-- begin Javascript block --> 
+  <script type="text/javascript"></script>
+  <script src="assets/javascript/game.js"></script>
+  <script>
+    hangman();
+  </script>
+</body>
+</html>
+          

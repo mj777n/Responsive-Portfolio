@@ -1,0 +1,70 @@
+body {
+    /* background-color: black; */
+    background-color: tomato;
+    color: white;
+}
+#header {
+    text-align: center;
+    font-size: 30px;
+    padding: 40px;
+}
+h1 {
+    font-size: 200%;
+
+}
+.col-lg-8,
+.col-lg-4 {
+    height: 500px;
+    border-style: dotted;
+    border-color: white;
+    border-width: 2px;
+}
+.img {
+    border: none;
+    padding: 0px;
+    align-content: center;
+    margin-top: 30px;
+    margin-left: 33px;
+}
+.rightBox {
+    text-align: center;
+    margin-top: 30px;
+    line-height: 200%;
+}
+#hidden-word {
+        width: 60px;
+}
+#outcome-1 
+ {
+    color: red;
+    background: lightskyblue;
+}
+#outcome-2
+{   
+    color: black;
+    background: lightskyblue;
+}
+#instructions,
+#hidden-word 
+{
+    font-size: 200%;
+    line-height: 50px;
+}
+#guesses-remaining 
+{
+    font-size: 200%;
+    line-height: 20px;
+    color: darkblue;
+ 
+}
+#guesses 
+{
+    color: black;
+    /* line-height: 20px; */
+    font-size: 130%;
+}
+#wins
+{
+    font-size: 150%;
+    color: darkgreen;
+}
