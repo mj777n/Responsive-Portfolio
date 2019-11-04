@@ -1,2 +1,3 @@
 # Responsive-Portfolio
-New Repo for HW #2a
+Adding image and link on portfolio page for Team Project #2 - "Paws N Claws"
+
